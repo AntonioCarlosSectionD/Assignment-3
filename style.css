@@ -1,0 +1,67 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d1b20;
+    color: #f4f0f3 ;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #344e58;
+    color: #f4f4f8;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-weight: bold;
+    background: linear-gradient(#cad6e2, #eeeef2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#auth-container, #quiz-container {
+    text-align: center;
+    margin: 20px;
+}
+
+#question-1{
+    display: block;
+}
+
+#question-2, #question-3, #submit-button, #result{
+    display: none;
+}
+
+.sumbitButton {
+    align-items: center;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #344e58;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #344e58;
+    color: #f4f4f8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Result styling */
+#result {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
